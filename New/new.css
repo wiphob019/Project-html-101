@@ -1,0 +1,44 @@
+.top{
+    font-size: 22px;
+    text-indent: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.view{
+    font-size: 14px;
+    text-indent: 35px;
+    word-spacing: 2px;
+    text-align: justify;
+}
+
+.bor{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.clearfix::after{
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+.img{
+    width: 180px;
+    height: 180px;
+    margin-left: 15px;
+    border-radius: 15px;
+    float: left;
+}
+
+.tab{
+    word-spacing: 45;
+}
+
+.time{
+    font-size: 10px;
+    color: gray;
+    float: right;
+}
