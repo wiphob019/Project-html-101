@@ -1,0 +1,20 @@
+.setarea{
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.setarea img{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.bor1{
+    border-bottom: 5px solid #4c4f55;
+    border-top: 5px solid #4c4f55;
+    padding: 5px;
+    text-align: justify;
+}
